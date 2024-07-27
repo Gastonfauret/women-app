@@ -1,6 +1,17 @@
 .container {
     display: flex;
-    flex-direction: column;       
+    flex-direction: column;  
+    
+    .search-input {
+        width: 20rem;
+        height: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .add-btn {
+        width: 10rem;
+        height: 2rem;
+    }
 
     h1 {
         color: black;

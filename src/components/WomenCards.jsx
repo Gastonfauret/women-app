@@ -24,6 +24,14 @@ export default function WomenCards() {
   return (
     <div className='container'>
       <h1>Lista de Mujeres</h1>
+      <input
+      type="search"
+      placeholder="Buscar..."
+      className="search-input"      
+      ></input>
+      <div>
+        <button className='add-btn'>Añadir Registro</button>        
+      </div>
       <ul>
         {womenData.map(woman => (
           <li key={woman.id}>
